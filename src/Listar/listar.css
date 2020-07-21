@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Assets/Roboto-Regular.ttf');
+}
+
+.back:hover {
+    transform: translateX(-4px);
+    transition: ease-in 200ms;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.listagemCard {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    justify-content: space-between;
+    width: 511.5px;
+    height: 40px;
+    margin-top: 1px;
+    background-color: rgb(238, 238, 238);
+}
+
+.listagemCard2 {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    justify-content: space-between;
+    width: 511.5px;
+    height: 40px;
+    margin-top: 1px;
+    background-color: rgba(233, 233, 233, 0.61);
+}
+
+.listagemCardDeletado {
+    display: flex;
+    justify-content: space-between;
+    transition: ease-in, 500ms;
+    transform: translateX(100%);
+    width: 511.5;
+    height: 40px;
+    margin-top: 1px;
+    background-color: rgb(253, 86, 86);
+}
+
+.listagemCardDeletadoGrupo {
+    display: flex;
+    justify-content: space-between;
+    transition: ease-in, 500ms;
+    transform: translateX(-100%);
+    width: 511.5;
+    height: 40px;
+    margin-top: 1px;
+    background-color: rgb(253, 86, 86);
+}
+
+.fundoDelete {
+    height: 100vh;
+    background-color: rgb(214, 214, 214);
+}
+
+.mainView {
+    overflow-x: hidden;
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+}
+
+.azureLogo {
+    position: relative;
+    left: -30px;
+    top: 5px;
+}
+
+.titleList {
+    display: flex;
+    font-family: 'Roboto';
+    justify-content: space-between;
+    margin-left: 210px;
+    margin-right: 210px;
+    text-align: center;
+}
+
+.titleBarList {
+    font-family: 'Roboto';
+    margin-top: 9px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.btns {
+    margin-top: 10px;
+}
+
+.listagemText {
+    display: flex;
+    cursor: pointer;
+    font-family: 'Roboto';
+    margin-left: 0px;
+    width: 410px;
+}
+
+.listagemText2 {
+    display: flex;
+    font-family: 'Roboto';
+    margin-left: 20px;
+    width: 360px;
+}
+
+.listagemText2>p {
+    margin-top: 10px;
+}
+
+.listagemText:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+.listagemText>p:first-child {
+    margin-left: 25px;
+}
+
+.listagemText>p {
+    margin-top: 10px;
+}
+
+.info {
+    color: gray;
+    margin-left: 10px;
+}
+
+.barFixed {
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+
+.spacing {
+    height: 44px;
+}
+
+.backBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(33, 150, 243);
+}
+
+.back {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.refresh {
+    filter: invert();
+    cursor: pointer;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.refresh:hover {
+    transition: linear 200ms;
+    transform: rotate(180deg);
+}
+
+.question:hover {
+    transition: linear 200ms;
+    transform: rotate(20deg);
+}
+
+.universumLoading {
+    position: relative;
+    top: 11px;
+    right: 20px;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.universumLoading>div {
+    display: flex;
+}
+
+.deleteButton {
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+    top: -3.5px;
+}
+
+.EnviandoStatusList {
+    position: fixed;
+    top: -63px;
+    left: 870px;
+    z-index: 200;
+}
+
+.deleteButtonOff {
+    cursor: not-allowed;
+    margin-right: 20px;
+    position: relative;
+    top: -3.5px;
+}
+
+.deactivate {
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+    top: -3.5px;
+}
+
+.statusText {
+    margin-top: 12.45px;
+    font-size: 12px;
+    margin-left: -30px;
+    margin-right: 15px;
+    font-family: 'Roboto';
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
+
+.deleteButton:hover {
+    transition: ease-in, 200ms;
+    transform: scale(1.5);
+}
+
+.deleteButtonQuestion:hover {
+    cursor: not-allowed;
+}
+
+.tipoRecursoList {
+    font-family: 'Roboto';
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.backgroundLoading {
+    position: fixed;
+    left: 462px;
+    top: 300px;
+}
+
+
+.respostaVazia {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.432);
+    top: 570px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    height: 60px;
+    width: 340px;
+    padding: 5px;
+    border-radius: 10px;
+    left: 655px;
+    font-family: 'Roboto';
+}
+
+.respostaVazia>p {
+    margin-top: 10px;
+}
